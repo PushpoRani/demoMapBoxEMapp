@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/ripple_effect_gray"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layout_img"
+        android:layout_width="80dp"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_marker_places" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/layout_img"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_toRightOf="@+id/layout_img">
+        <TextView
+            android:id="@+id/tvSubtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlaceName"
+            android:layout_marginBottom="4dp"
+            android:text="Sub Type"
+            android:textColor="@color/light_gray"
+            android:layout_alignStart="@+id/tvPlaceName"
+            android:layout_alignLeft="@+id/tvPlaceName"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/tvDistance"
+            android:text="Address"
+            android:textColor="@android:color/black"
+            android:lines="2"
+            android:ellipsize="end"
+            android:ems="3"
+            style="right"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tvArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/tvAddress"
+            android:text="Area"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tvContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/tvArea"
+            android:text="Contact"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubtype"
+            android:layout_marginBottom="4dp"
+            android:text="Distance"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvPlaceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Place Name"
+            android:textColor="@android:color/black"
+            android:lines="1"
+            android:ellipsize="end"
+            android:ems="3"
+            style="right"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imgHeart"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:src="@drawable/icon_heart" />-->
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

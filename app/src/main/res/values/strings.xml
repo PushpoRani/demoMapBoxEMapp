@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">demoBarikoiEmapp</string>
+    <string name="barikoi_api">MTU4NTpUQVk4WURFU1ZD</string>
+    <string name="access_token">pk.eyJ1IjoicHVzaHBvIiwiYSI6ImNrNW9kcTV4ejA1cTEza3FsdGZ4cWZrZGoifQ._0JvDyPqqZvGd-WDYD_0Yg</string>
+
+    <string name="place_icon">Place Icon</string>
+
+    <string name="no_connection_string">No Internet Connection</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="search_hint">Office, Bank, Police Station</string>
+    <string name="no_near_by_place_found">No Near By Place Found</string>
+</resources>
